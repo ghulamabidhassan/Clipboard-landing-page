@@ -1,0 +1,84 @@
+/* 1920 px  */
+
+@media screen and (min-width: 120em) {
+  .header .title {
+    margin: -2em 0 0.4em 0;
+    font-size: 4em;
+  }
+
+  .header .content {
+    font-size: 1.5em;
+    width: 70%;
+  }
+
+  button {
+    font-size: 1.25em;
+    font-weight: 500;
+  }
+
+  .track {
+    margin: 4em auto;
+    width: 50%;
+    font-size: 1.2em;
+  }
+
+  .track .title {
+    font-size: 2.8em;
+  }
+
+  .track .content {
+    font-size: 1.2em;
+  }
+
+  .section-two {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section-two img {
+    height: 40em;
+  }
+
+  .section-two .title {
+    font-size: 2.3em;
+  }
+
+  .section-two .content {
+    font-size: 1.15em;
+  }
+
+  .tab-mobile {
+    display: flex;
+    justify-content: center;
+    height: 45em;
+  }
+
+  .three-column .box img {
+    height: 3.5em;
+  }
+
+  .three-column .title {
+    font-size: 2.2em;
+  }
+
+  .three-column .box .content {
+    font-size: 1.3em;
+  }
+
+  .companies {
+    margin: 13em 0;
+  }
+
+  .last .content {
+    width: 60%;
+  }
+
+  footer {
+    font-size: 1.5em;
+  }
+
+  .icons {
+    scale: 1.5;
+    margin: 0.5em;
+  }
+}

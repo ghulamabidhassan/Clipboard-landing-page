@@ -1,0 +1,107 @@
+/* 420 px */
+@media screen and (max-width: 85em) and (min-width: 26.875em) {
+  .header {
+    padding: 0 1em;
+  }
+
+  .header .title {
+    margin: 3.5em 0 0.5em 0;
+  }
+
+  .header .content {
+    font-size: 1.3em;
+    width: 80%;
+  }
+
+  button {
+    font-size: 1.1em;
+    font-weight: 500;
+  }
+
+  .track {
+    margin: 4em auto;
+    width: 100%;
+    font-size: 1.2em;
+  }
+
+  .track .title {
+    margin: 0.5em 0 0.5em 0;
+    font-size: 2em;
+  }
+
+  .track .content {
+    font-size: 1em;
+    line-height: 1.7em;
+    padding: 0 2em;
+  }
+
+  .section-two {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-two img {
+    width: 100%;
+    margin: 0 auto;
+    padding: 2.5em;
+  }
+
+  .section-two .right {
+    text-align: center;
+    width: 100%;
+  }
+
+  .section-two .title {
+    font-size: 1.9em;
+  }
+
+  .section-two .content {
+    margin: 1em 0;
+    padding: 0 3em;
+    width: 100%;
+    font-size: 1.1em;
+  }
+
+  .tab-mobile {
+    display: flex;
+    justify-content: center;
+    height: 25em;
+  }
+
+  .three-column {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .three-column .title {
+    font-size: 1.6em;
+  }
+
+  .three-column .box {
+    padding: 0 3em;
+    width: 100%;
+  }
+
+  .three-column .box .content {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+  }
+
+  .companies {
+    display: flex;
+    flex-direction: column;
+    margin: 3em 0;
+  }
+
+  .companies > * {
+    margin: 2em 0;
+  }
+
+  footer {
+    background-color: rgb(241, 241, 241);
+    margin-top: 7em;
+    display: grid;
+    grid-template-columns: 1fr 2.5fr 2fr;
+    padding: 2em 0;
+  }
+}
